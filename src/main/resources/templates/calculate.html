@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BMI Calculator Result</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Wynik BMI</h1>
+    <p>BMI: <span th:text="${bmi}"></span> - Kategoria: <span th:text="${category}"></span></p>
+    <h3>Dane:</h3>
+    <a href="/" class="calculate-button">Wróć</a>
+</div>
+</body>
+</html>
+
+
