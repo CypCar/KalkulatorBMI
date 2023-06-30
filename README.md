@@ -1,6 +1,3 @@
-# KalkulatorBMI
- KalkulatorBMI
-
 # Kalkulator BMI z funkcją logowania i zapisem rekordów do bazy danych
 
 To jest aplikacja kalkulatora BMI (Body Mass Index) napisana w oparciu o Spring Boot i bazę danych PostgreSQL. Aplikacja umożliwia użytkownikom obliczanie BMI, logowanie do konta oraz zapisywanie rekordów BMI w bazie danych.
