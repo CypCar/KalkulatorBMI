@@ -39,7 +39,7 @@ public class BmiController {
         BmiRecord.setBmiCategory(category);
         BmiRecord.setRecordDate(new Timestamp(System.currentTimeMillis()));
 
-        // Ustaw użytkownika - możesz to zrobić w różny sposób, np. pobierając zalogowanego użytkownika
+        // Ustaw użytkownika
         User user = userRepository.findById(1L).orElse(null); // Przykład, gdzie szukam użytkownika o ID 1
         BmiRecord.setUser(user);
 
